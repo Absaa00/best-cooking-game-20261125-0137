@@ -1,0 +1,11 @@
+# SizzleWok Dapur Berapi — ignores for this repo (wok smoke, not node_modules smoke)
+node_modules/
+out/
+dist/
+bundle.tar.gz
+*.log
+.DS_Store
+Thumbs.db
+# local screenshot staging (the shipped ones live in screenshots/)
+shot-*.png
+/tmp/
